@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hithesh's Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 50px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #444;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: #fff;
+      color: #444;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #007acc;
+    }
+
+    .project, .skill {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #007acc;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background: #007acc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #005f99;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 700px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hithesh Hitthu</h1>
+    <p>Full-Stack Web Developer | JavaScript | React | Python</p>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Hithesh, a highly motivated web developer passionate about building modern, user-friendly web applications. With experience in JavaScript, React, Python, and responsive design, I enjoy solving real-world problems through technology.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <p><strong>Languages:</strong> HTML, CSS, JavaScript, Python</p>
+    </div>
+    <div class="skill">
+      <p><strong>Frameworks & Libraries:</strong> React, Bootstrap, Node.js</p>
+    </div>
+    <div class="skill">
+      <p><strong>Tools:</strong> Git, VS Code, GitHub, Postman</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Quiz App</h3>
+      <p>An interactive quiz application with instant scoring and feedback. Built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Real-Time Chat App</h3>
+      <p>Developed a responsive chat application using React.js and WebSockets for real-time communication.</p>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio website to showcase my work and skills, built with semantic HTML and modern CSS techniques.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: hithesh@example.com</p>
+    <p>GitHub: <a href="https://github.com/hithesh" target="_blank">github.com/hithesh</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/hithesh" target="_blank">linkedin.com/in/hithesh</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hithesh Hitthu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
